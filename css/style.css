@@ -1,0 +1,79 @@
+/*===============================================
+common code start from here  
+=================================================*/
+body{
+    background-color: #333;
+    color: #fff;
+}
+body{
+    scroll-behavior: smooth;
+}
+/*================================================
+ common code ends from here  
+==================================================*/
+
+
+/*================================================
+ navbar design start from here  
+==================================================*/
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #18181ae5;    
+ }
+ /*===============================================
+ navbar design ends from here  
+ =================================================*/
+
+
+ /*===============================================
+ hero area section design start from here
+ ================================================= */
+ #hero_area{
+     background-image: url(../img/home.jpg);
+     background-repeat: no-repeat;
+     background-position: center top ;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ .dark-overlay{
+     background-color: rgba(0, 0, 0, 0.7);
+ 
+ }
+ .hero_area_inner{
+     padding-top: 150px;
+     padding-bottom: 80px;
+ }
+ .fa{
+     font-size: 20px;
+ }
+ 
+ /*===============================================
+  hero area section design ends from here 
+==================================================*/
+
+
+ /*===============================================
+  create area section design ends from here 
+==================================================*/
+.fa{
+    font-size: 30px;
+}
+/*===============================================
+  create area section design ends from here 
+==================================================*/
+
+
+
+
+ /*===============================================
+  responsibe design start from here  
+==================================================*/
+
+ @media(max-width:768px){
+     #hero_area h1{
+        font-size: 30px;
+     }
+ }
+ /*================================================
+  responsibe design ends from here  
+  =================================================*/
